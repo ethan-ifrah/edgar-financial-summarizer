@@ -2,7 +2,7 @@
 
 A Python pipeline that loads annual 10-K figures for five US public companies from the SEC EDGAR API into SQLite, uses an LLM to write structured JSON summaries of year-over-year changes, and validates every figure the model cites against the database before anything reaches a reader.
 
-> **Status: early development.** The repository scaffold, design document and EDGAR exploration scripts are in place. The loader, summarizer and checker are next. See the [roadmap](#roadmap) and the [DEVLOG](DEVLOG.md).
+> **Status: early development.** The repository scaffold, design document and EDGAR exploration scripts are in place. The loader, summarizer and checker are next. See the [roadmap](#roadmap).
 
 ## The core idea
 
