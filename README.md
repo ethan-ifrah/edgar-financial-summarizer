@@ -75,7 +75,7 @@ Design details, including the database schema, XBRL tag mapping and validation r
 Requires Python 3.10 or later.
 
 ```bash
-git clone https://github.com/<your-username>/edgar-financial-summarizer.git
+git clone https://github.com/<ethan-ifrah>/edgar-financial-summarizer.git
 cd edgar-financial-summarizer
 python -m venv .venv
 source .venv/bin/activate          # Windows: .venv\Scripts\activate
