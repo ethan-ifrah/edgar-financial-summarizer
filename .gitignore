@@ -1,0 +1,15 @@
+# Secrets
+.env
+
+# Python
+.venv/
+__pycache__/
+*.pyc
+
+# Data: raw downloads and the local database (large, and reproducible by running the scripts)
+data/raw/
+*.db
+
+# OS files
+.DS_Store
+Thumbs.db
